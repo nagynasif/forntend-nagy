@@ -143,33 +143,3 @@ width: 100px;
 
 
 
-<div class="col-md-12 px-5">
-
-<div id="carouselExampleCaptions" class="carousel slide  text-center" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-      aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-      aria-label="Slide 2"></button>
-  </div>
-  <div class="carousel-inner  ">
-    <div class="carousel-item active mt-5  mb-5" data-bs-interval="3000">
-
-      <img src="./images/asset 7.jpeg" class="rounded-circle carousel-image" alt="...">
-      <h3 class="fs-5 pt-3 text-light"></h3>
-      <p class="pb-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eum, officia
-        iste maxime accusamus in!</p>
-
-    </div>
-    <div class="carousel-item mt-5 mb-5" data-bs-interval="2000">
-      <img src="./images/asset 0.jpeg" class="rounded-circle carousel-image" alt="...">
-      <h3 class="fs-5  pt-3 text-light">Xavi Alonso</h3>
-      <p class="pb-5 text-light text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-        recusandae dolore magnam dolor corrupti corporis aut.</p>
-    </div>
-  </div>
-
-
-</div>
-
-</div>
