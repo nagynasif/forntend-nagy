@@ -1,0 +1,175 @@
+
+
+
+:root{
+
+}
+
+
+/*header*/
+
+.header-custome{
+    background:rgba(0,0,0,0.79)url("../images/asset\ 11.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.head-title{
+    font-size:calc(3rem + 0.5vw) ;
+}
+
+
+.nav-item>a:hover{
+    border-bottom: 2px #fff solid;
+}
+
+.count-section{
+    position:relative;
+    background-image:url("../images/asset\ 10.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+
+.bg-hover:hover{
+color: #fff;
+background-color: #0078FF;
+}
+
+.border-primary:hover{
+   border: #fff;
+}
+.bg-body{
+    overflow: hidden;
+}
+.img-zoom {
+    transition: all 0.5s ease-in-out;
+    
+  }
+.img-zoom:hover{
+   
+  transform: scale(1.1);
+}
+
+
+.testmonial{
+    
+    background-image:url("../images/asset\ 13.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.carousel-indicators{
+    margin: -1px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  
+}
+
+.carousel-image{
+width: 100px;
+}
+
+.blog-img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.card-blog{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    padding: 0;
+    margin: auto;
+    width: 40%;
+}
+
+.contact-section{
+    background-image:url("../images/asset\ 13.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.link-mail{
+    color: black;
+}
+
+.link-mail:hover{
+    color: #0078FF;
+}
+
+.cont-info{
+    color: #0078FF;
+    
+}
+
+
+
+.img-testmonial{
+    width: 100px;
+}
+
+
+
+.social-media>i{
+    border: #0078FF 3px solid;
+    padding: 7px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.social-media>i:hover{
+   background-color: #0078FF;
+   color: #fff;
+
+}
+
+
+
+<div class="col-md-12 px-5">
+
+<div id="carouselExampleCaptions" class="carousel slide  text-center" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner  ">
+    <div class="carousel-item active mt-5  mb-5" data-bs-interval="3000">
+
+      <img src="./images/asset 7.jpeg" class="rounded-circle carousel-image" alt="...">
+      <h3 class="fs-5 pt-3 text-light"></h3>
+      <p class="pb-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eum, officia
+        iste maxime accusamus in!</p>
+
+    </div>
+    <div class="carousel-item mt-5 mb-5" data-bs-interval="2000">
+      <img src="./images/asset 0.jpeg" class="rounded-circle carousel-image" alt="...">
+      <h3 class="fs-5  pt-3 text-light">Xavi Alonso</h3>
+      <p class="pb-5 text-light text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+        recusandae dolore magnam dolor corrupti corporis aut.</p>
+    </div>
+  </div>
+
+
+</div>
+
+</div>
